@@ -1,2 +1,2 @@
 # Programming Exercise
-# programs in C from various resources.
+  programs in C from various resources.
