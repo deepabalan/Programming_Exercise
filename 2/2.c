@@ -13,7 +13,7 @@ main()
 
 	while ((c = getchar()) != EOF) {
 		if (c >= '0' && c <= '9')
-			++ndigit[c - '0'];
+			++ndigit[c - 0];
 		if (c == ' ' || c == '\t' || c == '\n')
 			++nwhite;
 		else
