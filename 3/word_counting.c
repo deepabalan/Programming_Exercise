@@ -1,4 +1,4 @@
-// Simple program that counts each word.
+/* Simple program that counts each word. */
 
 
 #include <stdio.h>

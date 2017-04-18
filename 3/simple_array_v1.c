@@ -1,5 +1,5 @@
-// Write a program that counts number of occurrences of digits,
-// white space characters, and all other characters.
+/* Write a program that counts number of occurrences of digits,
+ * white space characters, and all other characters. */
 
 
 #include <stdio.h>
