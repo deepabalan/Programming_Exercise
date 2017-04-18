@@ -22,5 +22,5 @@ main()
 			++nw;
 		}
 	}
-	printf("word count = %d, line count = %d, charcater coutn = %d\n", nw, nl, nc);
+	printf("word count = %d, line count = %d, character count = %d\n", nw, nl, nc);
 }
