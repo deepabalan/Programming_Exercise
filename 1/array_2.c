@@ -1,4 +1,6 @@
 #include <stdio.h>
+
+/* count digits, white space, others */
 main()
 {
 	int i, c, nwhite, nother;
@@ -8,16 +10,16 @@ main()
 	for (i = 0; i < 10; ++i)
 		ndigit[i] = 0;
 
-	while ((c = getchar()) != EOF) {
+	while ((c = getchar()) != EOF) 
 		if (c >= '0' && c <= '9')
-			++ndigit[c - '0'];
+			++ndigit[c-'0'];
 		else if (c == ' ' || c == '\n' || c == '\t')
 			++nwhite;
 		else
 			++nother;
-	}
-	printf("digits=");
+	
+	printf("digits =");
 	for (i = 0; i < 10; ++i)
-		printf("%d", ndigit[i]);
+		printf(" %d", ndigit[i]);
 	printf(", white space = %d, others = %d\n", nwhite, nother);
 }
